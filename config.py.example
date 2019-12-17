@@ -1,0 +1,18 @@
+# copy this file as `config.py`
+
+import os
+
+# PLEASE MAKE SURE YOUR LINKEDIN ACCOUNT IS NOT HAVING 2FA
+
+# EDIT
+USERNAME = '<usernmame>'
+PASSWORD = '<password>'
+COURSES = [
+'<slug>'
+]
+
+
+# EDIT IF YOU NEED TO
+BASE_DOWNLOAD_PATH = os.path.join(os.path.dirname(__file__))
+USE_PROXY = False
+PROXY = "http://127.0.0.1:8888" if USE_PROXY else None
